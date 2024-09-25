@@ -1,6 +1,6 @@
 # Auth App
 
-A simple React authentication app with Sign In and Sign Up pages.
+A React authentication app with Sign In and Sign Up pages.
 
 ## Features
 
@@ -22,7 +22,7 @@ A simple React authentication app with Sign In and Sign Up pages.
    git clone https://github.com/arinaa77/auth-app.git
 
 ## Folder Structure
-src/components: Contains reusable components including InputBox, PasswordBox, and Button.
-src/pages: Contains the SignInPage and SignUpPage.
-src/index.js: Main entry point for the React app.
-src/index.css: Styles and Tailwind CSS setup.
+- src/components: Contains reusable components including InputBox, PasswordBox, and Button.
+- src/pages: Contains the SignInPage and SignUpPage.
+- src/index.js: Main entry point for the React app.
+- src/index.css: Styles and Tailwind CSS setup.
