@@ -15,7 +15,6 @@ const SignUpPage = () => {
       setError('All fields are required');
     } else {
       setError(null);
-      // Implement sign-up logic here
     }
   };
 

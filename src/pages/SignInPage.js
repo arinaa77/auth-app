@@ -14,7 +14,6 @@ const SignInPage = () => {
       setError('Email and password are required');
     } else {
       setError(null);
-      // Implement sign-in logic here
     }
   };
 
