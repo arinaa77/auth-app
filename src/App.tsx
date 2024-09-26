@@ -3,17 +3,16 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import SignInPage from './pages/SignInPage';
 import SignUpPage from './pages/SignUpPage';
 
-function App() {
+const App: React.FC = () => {
   return (
     <Router>
       <Routes>
         <Route path="/signup" element={<SignUpPage />} />
         <Route path="/signin" element={<SignInPage />} />
-        {/* Redirect unknown routes to Sign In */}
         <Route path="*" element={<Navigate to="/signin" />} />
       </Routes>
     </Router>
   );
-}
+};
 
 export default App;
