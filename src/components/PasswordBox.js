@@ -1,11 +1,6 @@
 import React from 'react';
 
-interface PasswordBoxProps {
-  value: string;
-  onChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
-}
-
-const PasswordBox: React.FC<PasswordBoxProps> = ({ value, onChange }) => {
+const PasswordBox = ({ value, onChange }) => {
   return (
     <input
       type="password"
