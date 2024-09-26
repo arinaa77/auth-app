@@ -1,13 +1,6 @@
 import React from 'react';
 
-interface InputBoxProps {
-  type: string;
-  placeholder: string;
-  value: string;
-  onChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
-}
-
-const InputBox: React.FC<InputBoxProps> = ({ type, placeholder, value, onChange }) => {
+const InputBox = ({ type, placeholder, value, onChange }) => {
   return (
     <input
       type={type}
@@ -20,4 +13,3 @@ const InputBox: React.FC<InputBoxProps> = ({ type, placeholder, value, onChange 
 };
 
 export default InputBox;
-
